@@ -20,7 +20,10 @@ The aFileInitialize() method will initialize and render the widget on the web pa
 Rendered widget will be shown as below screenshot.
 
 
+
+#### After Widget is Initialized
 ![Widget Initialization](https://user-images.githubusercontent.com/100197611/162743024-4a4870b6-c0b8-4f83-baf7-929ce3bf480b.PNG)
+
 
 ![Widget File Selection](https://user-images.githubusercontent.com/100197611/162743099-f2e61133-eb0d-42b3-b2a3-6fd3a02a45bd.PNG)
 
