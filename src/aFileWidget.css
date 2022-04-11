@@ -1,0 +1,155 @@
+/*!
+ * aFileWidget.css - css for showing neat selected file's widget.
+ *
+ * Author  : Ankur Maurya
+ * Version : 1.1.0
+ *
+ */
+
+.afile {
+    margin:10px 0px 10px 0px;
+    border: 1px solid #dfdede;
+    border-radius:5px;
+    padding:0px;
+    height:30px;
+    background-color:#ffffff;
+    position:relative;
+    text-align: center;
+}
+
+.afile-select,.afile-clear,.afile-info{
+    position: absolute;
+    display:inline-block;
+    top:0px;
+    border: 0px solid #ffffff;
+    border-radius:3px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    height:28px;
+}
+
+.afile-select,.afile-clear{
+    padding:5px 5px 4px 5px;
+    background-color:#48d8af;
+    width:90px;
+    font-size: 13px;
+    color:#ffffff;
+}
+
+.afile-select:hover,.afile-clear:hover{
+    background-color:#57e7be;
+    cursor: pointer;
+    cursor: hand;
+
+}
+
+.afile-select {
+    left:0px;
+}
+.afile-clear {
+    right:0px;
+}
+
+.afile-info{
+    background-color:#ffffff;
+    left:90px;
+    padding:6px 5px 4px 5px;
+    width:55%;
+    font-size: 12px;
+    word-wrap: break-word;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.afileWidget {
+    position:relative;
+    background-color:#f0f0f0;  /*#f9f9f9; */
+    max-width:100%;
+    margin:5px 0px 5px 0px;
+    height:60px;
+    border-radius:5px;
+}
+
+.afileWidget-icon,.afileWidget-name,.afileWidget-type,.afileWidget-size,.afileWidget-remove {
+    position: absolute;
+    display:inline-block;
+}
+
+.afileWidget-icon {
+    top: 5px;
+    left:5px;
+    max-width:50px;
+    height:50px;
+    padding:5px;
+    text-align: center;
+}
+
+.afileWidget-icon i {
+    color:#ff9900;
+}
+
+.afileWidget-name {
+    top: 5px;
+    left:55px;
+    max-width:70%;
+    height:20px;
+    font-family: 'Times New Roman', Times, serif;
+    color:#595959;
+    font-size: 15px;
+}
+
+.afileWidget-type {
+    margin-left:3px;
+    top: 25px;
+    left:55px;
+    max-width:70%;
+    height:15px;
+    color:#737373;
+    font-size: 11px;		
+}
+
+.afileWidget-size {
+    margin-left:3px;
+    top: 40px;
+    left:55px;
+    max-width:70%;
+    height:18px;
+    color:#737373;
+    font-size: 11px;
+}
+
+.afileWidget-remove {
+    border-radius:10px;
+    top: 5px;
+    right:5px;
+    width:20px;
+    height:50px;
+    padding:13px 2px 13px 2px;
+    text-align: center;
+
+}
+
+.afileWidget-remove a {
+    color:#595959;
+}
+
+.afileWidget-remove a:hover{
+    cursor: pointer;
+    cursor: hand;
+    color:#ff3232;
+}
+
+.afileWidget,.afileWidget-icon,.afileWidget-name,.afileWidget-type,.afileWidget-size,.afileWidget-remove {
+    word-wrap: break-word;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+
+.afile-enclosure {
+    max-height: 400px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
