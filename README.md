@@ -19,3 +19,4 @@ When you need the widget to be initialized and displayed on the web page just ca
 The aFileInitialize() method will initialize and render the widget on the web page. 
 Rendered widget will be shown as below screenshot.
 
+![Screenshot](Screenshot/Widget Initialization.PNG)
