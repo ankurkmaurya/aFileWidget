@@ -6,14 +6,14 @@ A javascript file select widget. It is used to select file from the local system
 Just define the empty div element with id attribute 'uploadWidget'
 
 ```shell
- <div class="col-md-offset-3 col-md-6 text-center" id="uploadWidget"> 
- </div>
+   <div class="col-md-offset-3 col-md-6 text-center" id="uploadWidget"> 
+   </div>
 ```
 
-When you need the widget to be initialized and displayed on the web page just call the aFileInitialize() method with the element identifier name.
+When you need the widget to be initialized and displayed on the web page just call the aFileInitialize('elementIdName') method with the element identifier name.
 
 ```shell
- aFileInitialize('uploadWidget');
+   aFileInitialize('uploadWidget');
 ```
 
 
