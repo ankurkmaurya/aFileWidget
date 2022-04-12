@@ -1,4 +1,4 @@
-# aFileWidget
+# aFileWidget (A File Upload Widget for Web Page) 
 A javascript file select widget. It is used to select file from the local system and view the selected file on the web page.
 
 ## 1. Initialize the File Widget
@@ -51,9 +51,11 @@ In the above code 'filearray' is the array which will hold the index of all the 
 
 This widget has been designed with [Bootstrap](https://getbootstrap.com) and [Font Awesome](https://fontawesome.com) icons so it has dependency on both the libraries.
 
-
-
-
+It has the option to allow multiple or single file select through the 'maxfile' variable.
+<ul>
+<li>maxfile=0 : To allow multiple file select option.</li>
+<li>maxfile=1 : To allow only single file select option.</li>
+</ul>
 
 
 
