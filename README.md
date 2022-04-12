@@ -49,7 +49,7 @@ In the above code 'filearray' is the array which will hold the index of all the 
 
 ## 3. Configuration Settings
 
-
+This widget has been designed with [Bootstrap](https://getbootstrap.com) and [Font Awesome](https://fontawesome.com) icons so it has dependency on both the libraries.
 
 
 
