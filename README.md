@@ -1,7 +1,7 @@
 # aFileWidget
 A javascript file select widget. It is used to select file from the local system and view the selected file on the web page.
 
-## Initialize the file widget
+## Initialize the File Widget
 
 Just define the empty div element with id attribute 'uploadWidget'
 
@@ -25,7 +25,6 @@ Rendered widget will be shown as below screenshot.
 
 #### After File is selected
 ![Widget Initialization](https://github.com/ankurkmaurya/aFileWidget/blob/main/Screenshot/Widget%20File%20Selection.PNG)
-
 
 #### Selected File Deletion
 ![Widget Initialization](https://github.com/ankurkmaurya/aFileWidget/blob/main/Screenshot/Widget%20File%20Deletion.PNG)
