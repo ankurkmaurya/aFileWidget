@@ -1,5 +1,5 @@
 # aFileWidget (A File Upload Widget for Web Page) 
-A javascript file select widget. It is used to select file from the local system and view the selected file on the web page.
+A Javascript file select widget. It is used to select file from the local system and view the selected file on the web page.
 
 ## 1. Initialize the File Widget
 
